@@ -1,0 +1,96 @@
+.message {
+    /* Allow \n to be displayed as newlines */
+    white-space: pre-line;
+
+    position: relative;
+    font-size: 14px;
+    padding: 12px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    max-width: 80%;
+    margin-bottom: 8px;
+}
+
+.message-assistant {
+    align-self: flex-start;
+    background-color: var(--yt-spec-additive-background);
+    border-radius: 20px 20px 20px 0;
+}
+
+.message-user {
+    align-self: flex-end;
+    border-radius: 20px 20px 0 20px;
+
+    color: white;
+    background-color: #0086ff;
+}
+
+.chat-with-youtube-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 596px;
+    width: 100%;
+
+    border-radius: 12px;
+    border: 1px solid var(--yt-spec-10-percent-layer);
+    box-sizing: border-box;
+    z-index: 601;
+    position: relative;
+
+    color: var(--yt-live-chat-header-text-color, var(--yt-live-chat-primary-text-color));
+    margin-bottom: 8px;
+}
+
+.cwy-conversation-container {
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    font-size: var(--ytd-subheadline-font-size);
+    padding: 4px 24px;
+}
+
+.cwy-conversation-container> :first-child {
+    margin-top: auto !important;
+    /* use !important to prevent breakage from child margin settings */
+}
+
+.cwy-body {
+    overflow-y: auto;
+}
+
+.cwy-label {
+    padding: 8px 8px 8px 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: var(--ytd-subheadline-font-size);
+    font-weight: var(--ytd-subheadline-font-weight);
+    line-height: var(--ytd-subheadline-line-height);
+    letter-spacing: var(--ytd-subheadline-letter-spacing);
+    border-bottom: var(--yt-live-chat-header-bottom-border, none);
+}
+
+.cwy-form {
+    padding: 0px 16px 16px 16px;
+}
+
+.cwy-textbox {
+    border-radius: 8px;
+    border: 1px solid var(--yt-spec-10-percent-layer);
+    box-sizing: border-box;
+
+    padding: 8px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 100%;
+    text-align: inherit;
+
+    background-color: var(--yt-spec-additive-background);
+    color: var(--yt-live-chat-header-text-color, var(--yt-live-chat-primary-text-color));
+}

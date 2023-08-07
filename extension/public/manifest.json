@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "chat-with-youtube",
+  "description": "Chat with YouTube",
+  "version": "0.0.1",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.youtube.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "world": "MAIN"
+    }
+  ],
+  "minimum_chrome_version": "92",
+  "action": {
+    "default_icon": {
+      "16": "icons/icon.png",
+      "24": "icons/icon.png",
+      "32": "icons/icon.png"
+    },
+    "default_title": "Chat with YouTube",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
+  }
+}
