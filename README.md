@@ -66,4 +66,4 @@ We recommend opening up two terminal windows side-by-side, one for the server an
 
 ## How does it work?
 
-Well, it's quite simple actually: just add the transcript and video metadata to the prompt for additional context. For this demo, we use [Llama-2-7b-hf](meta-llama/Llama-2-7b-hf), which has a context length of 4096 tokens, and can easily handle most videos. Of course, for longer videos, it would be best to implement segmentation and retrieval augmented generation, but that's beyond the scope of this project.
+Well, it's quite simple actually: just add the transcript and video metadata to the prompt for additional context. For this demo, we use [Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf), which has a context length of 4096 tokens, and can easily handle most videos. Of course, for longer videos, it would be best to implement segmentation and retrieval augmented generation, but that's beyond the scope of this project.
