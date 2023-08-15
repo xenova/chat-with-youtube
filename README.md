@@ -2,6 +2,8 @@
 
 Introducing **Chat with YouTube**, a browser extension that lets you chat with YouTube videos! This is a small project that demonstrates how easy it is to build conversational browser extensions using [Hugging Face Inference Endpoints](https://huggingface.co/inference-endpoints) and the [Vercel AI SDK](https://sdk.vercel.ai/docs/guides/providers/hugging-face).
 
+![Demo Application](https://github.com/xenova/chat-with-youtube/assets/26504141/d7995856-0f8c-42bb-aa4a-ed94cf80d0ae)
+
 
 Since the license is MIT, feel free to [fork](https://github.com/xenova/chat-with-youtube/fork) the project, make improvements, and release it yourself on the Chrome/Firefox Web Store!
 
